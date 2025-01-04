@@ -1,0 +1,19 @@
+@use "./config/variaveis.scss";
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: variaveis.$colorText;
+
+    p {
+        color: variaveis.$colorParagrafo;
+    }
+
+    button {
+        padding:10px 10px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+}

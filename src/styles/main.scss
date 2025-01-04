@@ -1,0 +1,34 @@
+@use "./config/reset.scss";
+@use "./config/variaveis.scss";
+@use "./hero";
+@use "./about";
+@use "./info";
+@use "./footer";
+
+body {
+    background-color: variaveis.$colorDeFundo;
+}
+
+.title {
+    font-size: 24px;
+    color: variaveis.$colorWhite;
+}
+
+.title-big {
+    font-size: 32px;
+    color: variaveis.$colorWhite;
+}
+
+.title-small {
+    font-size: 20px;
+    color: variaveis.$colorWhite;
+}
+
+.title-color {
+    color: variaveis.$colorText;
+}
+
+
+p {
+    color: variaveis.$colorParagrafo;
+}
