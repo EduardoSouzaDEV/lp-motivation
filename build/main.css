@@ -122,8 +122,8 @@
     overflow: hidden;
   }
   .about .about_image img {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
     border-radius: 20px;
@@ -252,8 +252,8 @@
   }
   .info .info_image img {
     transition: transform 0.3s ease;
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
     border: 4px solid #ABABAB;
     border-radius: 20px;
