@@ -32,3 +32,20 @@ body {
 p {
     color: variaveis.$colorParagrafo;
 }
+
+@media  (max-width: 450px) {
+    .title {
+        font-size: 22px;
+        color: variaveis.$colorText;
+    }
+    
+    .title-big {
+        font-size: 28px;
+        color: variaveis.$colorText;
+    }
+    
+    .title-small {
+        font-size: 16px;
+        color: variaveis.$colorWhite;
+    }
+}
