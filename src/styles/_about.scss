@@ -30,9 +30,20 @@
 
     .about_image {
         padding: 40px;
+        width: 400px;
+        overflow: hidden;
+
         img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
             border-radius: 20px;
             border: 4px solid variaveis.$colorText;
+        }
+
+        img:hover {
+            transform: scale(1.3);
         }
     }
 }

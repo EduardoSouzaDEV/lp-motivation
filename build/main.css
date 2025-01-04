@@ -53,10 +53,19 @@
 }
 .about .about_image {
   padding: 40px;
+  width: 400px;
+  overflow: hidden;
 }
 .about .about_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
   border-radius: 20px;
   border: 4px solid #F53B57;
+}
+.about .about_image img:hover {
+  transform: scale(1.3);
 }
 
 .info {
@@ -64,10 +73,19 @@
 }
 .info .info_image {
   padding: 20px;
+  overflow: hidden;
+  width: 500px;
 }
 .info .info_image img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border: 4px solid #ABABAB;
   border-radius: 20px;
+}
+.info .info_image img:hover {
+  transform: scale(1.2);
 }
 .info .info_text .title-small {
   margin-top: 20px;
@@ -93,6 +111,11 @@
   border: none;
   border-radius: 20px;
   margin-top: 10px;
+  cursor: pointer;
+}
+.footer button:hover {
+  background-color: #000;
+  color: #F53B57;
 }
 
 body {
