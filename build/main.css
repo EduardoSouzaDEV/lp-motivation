@@ -38,7 +38,6 @@
 }
 .hero .hero_image img {
   height: 400px;
-  margin-bottom: -30px;
   border-bottom: 2px solid #F53B57;
 }
 @media (max-width: 1024px) {
